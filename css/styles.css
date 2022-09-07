@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color:blue;
+    margin: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: cursive;
+    color:yellow;
+}
+.outer{
+    background-color: black;
+    display: flex;
+    flex: content;
+    justify-content: center;
+    list-style: none;
+    
+}
+.outer .inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    margin: 30px;
+}
+.outer .inner .box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 20px;
+}
+.outer .inner .text{
+    line-height: 50px;
+    font-size: larger;
+    font-family: cursive;
+}

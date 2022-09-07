@@ -1,0 +1,68 @@
+
+.p{
+    display: flex;
+    flex-direction: column;
+}
+
+.p2 .line1{
+    display: flex;
+height: 66px;
+width: 100%;
+
+justify-content: space-around;
+align-items: center;
+}
+.p2 .line1 .rounds1{
+    height: 40px;
+width: 23%;
+background-color: orange;
+border-radius: 50%;
+}
+.p2 .line1 .rounds2{
+    height: 40px;
+width: 23%;
+background-color: orange;
+border-radius: 50%;
+}
+
+.p2 .line2{
+    display: flex;
+    height: 66px;
+    width: 100%;
+    
+    justify-content: space-around;
+    align-items: center;
+    }
+.p2 .line2 .rounds1{
+        height: 40px;
+    width: 23%;
+    background-color: orange;
+    border-radius: 50%;
+    }
+.p2 .line2 .rounds2{
+        height: 40px;
+    width: 23%;
+    background-color: orange;
+    border-radius: 50%;
+    }
+
+    .p2 .line3{
+        display: flex;
+        height: 66px;
+        width: 100%;
+        
+        justify-content: space-around;
+        align-items: center;
+        }
+    .p2 .line3 .rounds1{
+            height: 40px;
+        width: 23%;
+        background-color: orange;
+        border-radius: 50%;
+        }
+    .p2 .line3 .rounds2{
+         height: 40px;
+        width: 23%;
+        background-color: orange;
+        border-radius: 50%;
+        }
